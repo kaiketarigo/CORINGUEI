@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.img{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+div>img{
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+body{
+    background-color: rgb(4, 53, 124);
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+input{
+    width: 276px;
+    height: 37px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+}
+.categorias{
+    background-color: rgb(4, 53, 124);
+    border-color: rgb(4, 53, 124);
+    border-radius: 10px;
+    width: 250px;
+    height: 66px;
+    display: center;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    padding-left: 85px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+
+.imagem{
+    width: 110px;
+    width: 30%;
+}
+
+.CEI{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+}
+
+/*.footer{
+    flex-shrink: 0;
+    color: white;
+    padding: 30px;
+    text-align: center;   
+}*/
+
+#Texto{
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Verdana;
+    background-color: white;
+    border-radius: 10px;
+    border-style:groove;   
+}
+.main{
+    flex-grow: 1;
+}
